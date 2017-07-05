@@ -1,0 +1,102 @@
+
+.applyModal {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+	font-size: 18px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 10px solid #00ccff;
+    width: 75%;	
+	height:100%;
+}
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.subclose {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.subclose:hover,
+.subclose:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.subclose2 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.subclose2:hover,
+.subclose2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.inputSlide{
+	width:50%;
+}
+.applyChanges{
+	border:3px solid black;
+	padding:10px;
+	background:#00ccff;
+	font-size:24px;
+	width:75%;
+	text-align:center;
+}
+
+.SliderImageFullWidth > .item > img,
+.SliderImageFullWidth > .item > a > img {
+
+
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	margin: auto!important;
+
+	}
+.carousel-control.right,
+.carousel-control.left{
+	background:transparent!important;
+opacity:1.0!important;
+}
+.glyphicon-hand-right,.glyphicon-hand-left{top:50%!important}
+.Slidercontrols{
+position: absolute;
+top: 50%!important; /* pushes the icon in the middle of the height */
+z-index: 5;
+display: inline-block;
+}
+.imageNameLoader{border:2px solid #00ccff;width:75%; text-align:center;}
+.selectBox{background-color:#00ccff;padding:5px 10px;border:5px solid black;}
+/*Slider creation page*/
